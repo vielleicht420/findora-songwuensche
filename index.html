@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Findora Songwünsche</title>
+<meta name="description" content="Songwünsche aus den Kommentaren von @f1ndor4">
+<meta name="theme-color" content="#FF6A13">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Songwünsche">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="top-row">
+      <div class="brand">
+        <img src="icons/icon-192.png" alt="" class="brand-icon">
+        <div>
+          <h1 id="view-title">Rangliste</h1>
+          <div class="stand" id="stand">Lade Daten …</div>
+        </div>
+      </div>
+      <button class="icon-btn" id="reload" aria-label="Neu laden" title="Neu laden">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M17.65 6.35A7.96 7.96 0 0 0 12 4a8 8 0 1 0 7.73 10h-2.08A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+      </button>
+    </div>
+    <div class="search-wrap" id="search-wrap">
+      <svg viewBox="0 0 24 24" width="18" height="18" class="search-ico"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></svg>
+      <input id="search" type="search" placeholder="Song, Interpret, @Name, Kommentar …" autocomplete="off" autocorrect="off" spellcheck="false">
+      <button id="search-clear" class="clear" aria-label="Suche leeren" hidden>×</button>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <nav class="tabs" id="tabs">
+    <button data-view="rangliste" class="active"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 21H3V10h4v11zm7 0h-4V3h4v18zm7 0h-4v-7h4v7z"/></svg><span>Rangliste</span></button>
+    <button data-view="videos"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M18 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-8 12V8l6 4-6 4z"/></svg><span>Videos</span></button>
+    <button data-view="personen"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M16 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-8 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05A4.2 4.2 0 0 1 17 16.5V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg><span>Personen</span></button>
+    <button data-view="follower"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 9.2 8.6 2 9.2l5.5 4.7L5.8 21 12 17.3 18.2 21l-1.7-7.1L22 9.2l-7.2-.6z"/></svg><span>Follower</span></button>
+    <button data-view="kommentare"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg><span>Kommentare</span></button>
+  </nav>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="sheet-bar">
+      <button class="back" id="sheet-close"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>Zurück</button>
+    </div>
+    <div class="sheet-body" id="sheet-body"></div>
+  </div>
+</div>
+<script src="app.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,908 @@
+{
+ "_info": "Song-Katalog. Neue Songs hier ergänzen (id eindeutig, klein-mit-bindestrich). spotify_track optional.",
+ "songs": [
+  {
+   "id": "just-give-me-a-reason",
+   "title": "Just Give Me a Reason",
+   "artist": "P!nk feat. Nate Ruess"
+  },
+  {
+   "id": "in-this-shirt",
+   "title": "In This Shirt",
+   "artist": "The Irrepressibles"
+  },
+  {
+   "id": "7-years",
+   "title": "7 Years",
+   "artist": "Lukas Graham"
+  },
+  {
+   "id": "space-song",
+   "title": "Space Song",
+   "artist": "Beach House"
+  },
+  {
+   "id": "wicked-game",
+   "title": "Wicked Game",
+   "artist": "Chris Isaak"
+  },
+  {
+   "id": "runaway-aurora",
+   "title": "Runaway",
+   "artist": "AURORA",
+   "hinweis": "Der Kommentar „Bitte runaway“ (118 Likes) wurde als AURORA gewertet, nicht als Kanye West.",
+   "spotify_track": "https://open.spotify.com/track/4DOHII0TWNf3GX72rzsHg9"
+  },
+  {
+   "id": "505",
+   "title": "505",
+   "artist": "Arctic Monkeys",
+   "spotify_track": "https://open.spotify.com/track/58ge6dfP91o9oXMzq3XkIS"
+  },
+  {
+   "id": "mr-brightside",
+   "title": "Mr. Brightside",
+   "artist": "The Killers"
+  },
+  {
+   "id": "levels",
+   "title": "Levels",
+   "artist": "Avicii"
+  },
+  {
+   "id": "pumped-up-kicks",
+   "title": "Pumped Up Kicks",
+   "artist": "Foster the People"
+  },
+  {
+   "id": "sundress",
+   "title": "Sundress",
+   "artist": "A$AP Rocky"
+  },
+  {
+   "id": "traum-cro",
+   "title": "Traum",
+   "artist": "CRO"
+  },
+  {
+   "id": "smooth-cro",
+   "title": "SMOOTH",
+   "artist": "CRO"
+  },
+  {
+   "id": "reflection-nbhd",
+   "title": "Reflection",
+   "artist": "The Neighbourhood"
+  },
+  {
+   "id": "goldener-reiter",
+   "title": "Goldener Reiter",
+   "artist": "Joachim Witt"
+  },
+  {
+   "id": "sailor-song",
+   "title": "Sailor Song",
+   "artist": "Gigi Perez"
+  },
+  {
+   "id": "control-zoe",
+   "title": "Control",
+   "artist": "Zoe Wees",
+   "hinweis": "Aus dem Thread „Sia oder Zoe Wees“; Lara hat später „Control“ genannt. „Lose Control“ in derselben Antwort wurde als dieser Wunsch gewertet, nicht als Teddy Swims."
+  },
+  {
+   "id": "sia-unbestimmt",
+   "title": "Sia (kein bestimmter Titel)",
+   "artist": "Sia",
+   "hinweis": "Es wurde nur die Künstlerin genannt, kein konkreter Song."
+  },
+  {
+   "id": "behind-blue-eyes",
+   "title": "Behind Blue Eyes",
+   "artist": "The Who",
+   "hinweis": "Original von The Who; das Cover von Limp Bizkit ist ebenfalls sehr bekannt."
+  },
+  {
+   "id": "breezeblocks",
+   "title": "Breezeblocks",
+   "artist": "alt-J"
+  },
+  {
+   "id": "mirrors",
+   "title": "Mirrors",
+   "artist": "Justin Timberlake",
+   "hinweis": "Ein Wunsch nennt ausdrücklich die Demo-Version."
+  },
+  {
+   "id": "surrender-bt",
+   "title": "Surrender",
+   "artist": "Billy Talent",
+   "spotify_track": "https://open.spotify.com/track/1DeaByFASTvBxtYANOyFXy"
+  },
+  {
+   "id": "hinterm-block",
+   "title": "Hinterm Block",
+   "artist": "Luvre47",
+   "hinweis": "Kommentar: „hinterm Blick aus Sonne und beton“ – gemeint ist der Song zum Film „Sonne und Beton“."
+  },
+  {
+   "id": "talking-to-the-moon",
+   "title": "Talking to the Moon",
+   "artist": "Bruno Mars"
+  },
+  {
+   "id": "lovely",
+   "title": "lovely",
+   "artist": "Billie Eilish & Khalid"
+  },
+  {
+   "id": "ich-will-nur-dass-du-weisst",
+   "title": "Ich will nur, dass du weißt",
+   "artist": "SDP feat. Adel Tawil",
+   "spotify_track": "https://open.spotify.com/track/2GUSAEfsdwse4a2QXi3kWE"
+  },
+  {
+   "id": "the-cure-olivia",
+   "title": "the cure",
+   "artist": "Olivia Rodrigo"
+  },
+  {
+   "id": "freaks",
+   "title": "Freaks",
+   "artist": "Surf Curse"
+  },
+  {
+   "id": "dont-stop-me-now",
+   "title": "Don't Stop Me Now",
+   "artist": "Queen"
+  },
+  {
+   "id": "2-plus-2-is-5",
+   "title": "2 + 2 = 5",
+   "artist": "Radiohead"
+  },
+  {
+   "id": "labour",
+   "title": "Labour",
+   "artist": "Paris Paloma"
+  },
+  {
+   "id": "the-one-that-got-away",
+   "title": "The One That Got Away",
+   "artist": "Katy Perry"
+  },
+  {
+   "id": "the-night-we-met",
+   "title": "The Night We Met",
+   "artist": "Lord Huron"
+  },
+  {
+   "id": "its-a-sin",
+   "title": "It's a Sin",
+   "artist": "Pet Shop Boys"
+  },
+  {
+   "id": "the-nights",
+   "title": "The Nights",
+   "artist": "Avicii"
+  },
+  {
+   "id": "no-angels",
+   "title": "No Angels",
+   "artist": "Bastille feat. Ella Eyre",
+   "hinweis": "Als Songtitel gewertet. Theoretisch wäre auch die Band No Angels denkbar; der Wortlaut klingt nach einem Titel.",
+   "spotify_track": "https://open.spotify.com/track/2z7lRp0TawnH6ECd4nkzn0"
+  },
+  {
+   "id": "freefall",
+   "title": "It's Called: Freefall",
+   "artist": "Rainbow Kitten Surprise"
+  },
+  {
+   "id": "au-revoir",
+   "title": "Au Revoir",
+   "artist": "Mark Forster feat. Sido"
+  },
+  {
+   "id": "sonne-rammstein",
+   "title": "Sonne",
+   "artist": "Rammstein",
+   "hinweis": "Kommentar nur „mach mal die Sonne“ – als Rammstein gewertet, weil das der bekannteste Titel ist."
+  },
+  {
+   "id": "careless-whisper",
+   "title": "Careless Whisper",
+   "artist": "George Michael"
+  },
+  {
+   "id": "in-the-end",
+   "title": "In the End",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "as-it-was",
+   "title": "As It Was",
+   "artist": "Harry Styles"
+  },
+  {
+   "id": "runaway-train",
+   "title": "Runaway Train",
+   "artist": "Soul Asylum",
+   "hinweis": "Kommentar: „Runway train“."
+  },
+  {
+   "id": "purple-rain",
+   "title": "Purple Rain",
+   "artist": "Prince"
+  },
+  {
+   "id": "meet-you-at-the-graveyard",
+   "title": "Meet you at the Graveyard",
+   "artist": "Cleffy",
+   "spotify_track": "https://open.spotify.com/track/2vXSHAPCNpWZ7DNFDkEDMz"
+  },
+  {
+   "id": "ill-be-missing-you",
+   "title": "I'll Be Missing You",
+   "artist": "Puff Daddy feat. Faith Evans & 112"
+  },
+  {
+   "id": "looking-too-closely",
+   "title": "Looking Too Closely",
+   "artist": "Fink"
+  },
+  {
+   "id": "the-scientist",
+   "title": "The Scientist",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "rosarote-mauer",
+   "title": "Rosarote Mauer",
+   "artist": "Julia Meladin"
+  },
+  {
+   "id": "until-you-volkan",
+   "title": "Until You",
+   "artist": "Volkan Kuday",
+   "spotify_track": "https://open.spotify.com/track/6HKQBCPDgjOQBq37mo1LQ0"
+  },
+  {
+   "id": "fine-lemon-demon",
+   "title": "Fine",
+   "artist": "Lemon Demon"
+  },
+  {
+   "id": "lemon-demon-unbestimmt",
+   "title": "Lemon Demon (kein bestimmter Titel)",
+   "artist": "Lemon Demon",
+   "hinweis": "Nur der Künstler genannt (geschrieben „Leon demon“)."
+  },
+  {
+   "id": "no-wind-resistance",
+   "title": "no wind resistance!!!",
+   "artist": "Kinneret"
+  },
+  {
+   "id": "self-aware",
+   "title": "Self Aware",
+   "artist": "Temper City",
+   "spotify_track": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT"
+  },
+  {
+   "id": "everything-i-wanted",
+   "title": "everything i wanted",
+   "artist": "Billie Eilish"
+  },
+  {
+   "id": "could-have-been-me",
+   "title": "Could Have Been Me",
+   "artist": "The Struts"
+  },
+  {
+   "id": "this-side-of-paradise",
+   "title": "This Side of Paradise",
+   "artist": "Coyote Theory"
+  },
+  {
+   "id": "car-radio",
+   "title": "Car Radio",
+   "artist": "twenty one pilots"
+  },
+  {
+   "id": "cherry-waves",
+   "title": "Cherry Waves",
+   "artist": "Deftones"
+  },
+  {
+   "id": "je-te-laisserai-des-mots",
+   "title": "Je te laisserai des mots",
+   "artist": "Patrick Watson"
+  },
+  {
+   "id": "apocalypse-cas",
+   "title": "Apocalypse",
+   "artist": "Cigarettes After Sex"
+  },
+  {
+   "id": "vicinity-of-obscenity",
+   "title": "Vicinity of Obscenity",
+   "artist": "System of a Down"
+  },
+  {
+   "id": "changes-xxxtentacion",
+   "title": "Changes",
+   "artist": "XXXTentacion"
+  },
+  {
+   "id": "enjoy-the-silence",
+   "title": "Enjoy the Silence",
+   "artist": "Depeche Mode"
+  },
+  {
+   "id": "story-of-a-warrior",
+   "title": "Story of a Warrior",
+   "artist": "John Michael Howell",
+   "spotify_track": "https://open.spotify.com/track/2u21IsdmCsny4R64kxI6E4"
+  },
+  {
+   "id": "go-solo",
+   "title": "Go Solo",
+   "artist": "Tom Rosenthal"
+  },
+  {
+   "id": "when-i-close-my-eyes",
+   "title": "When I Close My Eyes",
+   "artist": "Tom Odell"
+  },
+  {
+   "id": "legendary-lovers",
+   "title": "Legendary Lovers",
+   "artist": "Katy Perry"
+  },
+  {
+   "id": "mary-on-a-cross",
+   "title": "Mary On A Cross",
+   "artist": "Ghost"
+  },
+  {
+   "id": "faded",
+   "title": "Faded",
+   "artist": "Alan Walker"
+  },
+  {
+   "id": "another-love",
+   "title": "Another Love",
+   "artist": "Tom Odell"
+  },
+  {
+   "id": "breaking-the-habit",
+   "title": "Breaking the Habit",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "look-at-me-now",
+   "title": "Look at Me Now",
+   "artist": "Brennan Savage"
+  },
+  {
+   "id": "little-dark-age",
+   "title": "Little Dark Age",
+   "artist": "MGMT"
+  },
+  {
+   "id": "masterpiece-miw",
+   "title": "Masterpiece",
+   "artist": "Motionless in White"
+  },
+  {
+   "id": "hoffnung-schillah",
+   "title": "Hoffnung",
+   "artist": "Schillah feat. Maytrixx",
+   "spotify_track": "https://open.spotify.com/track/7IRdUDDwo8MwdYUR0DpBtj"
+  },
+  {
+   "id": "rammstein-unbestimmt",
+   "title": "Rammstein (kein bestimmter Titel)",
+   "artist": "Rammstein",
+   "hinweis": "Zuerst allgemein ein Rammstein-Song gewünscht; später „Meine Tränen“ konkretisiert."
+  },
+  {
+   "id": "clocks",
+   "title": "Clocks",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "talk-coldplay",
+   "title": "Talk",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "strawberry-swing",
+   "title": "Strawberry Swing",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "true-love-coldplay",
+   "title": "True Love",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "lovers-in-japan",
+   "title": "Lovers In Japan",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "always-in-my-head",
+   "title": "Always in My Head",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "about-you-1975",
+   "title": "About You",
+   "artist": "The 1975"
+  },
+  {
+   "id": "mystery-of-love",
+   "title": "Mystery of Love",
+   "artist": "Sufjan Stevens"
+  },
+  {
+   "id": "sweater-weather",
+   "title": "Sweater Weather",
+   "artist": "The Neighbourhood"
+  },
+  {
+   "id": "strong-lg",
+   "title": "Strong",
+   "artist": "London Grammar"
+  },
+  {
+   "id": "one-more-light",
+   "title": "One More Light",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "kids-mgmt",
+   "title": "Kids",
+   "artist": "MGMT"
+  },
+  {
+   "id": "rip-roach",
+   "title": "R.I.P. Roach",
+   "artist": "XXXTentacion & Ski Mask the Slump God"
+  },
+  {
+   "id": "leave-out-all-the-rest",
+   "title": "Leave Out All the Rest",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "bloodstream-alyssa",
+   "title": "bloodstream",
+   "artist": "Alyssa Grace",
+   "spotify_track": "https://open.spotify.com/track/2oWFJJW9d1bIra3zHjR6GO"
+  },
+  {
+   "id": "goodbye-angels",
+   "title": "Goodbye Angels",
+   "artist": "Red Hot Chili Peppers"
+  },
+  {
+   "id": "castle-of-glass",
+   "title": "Castle of Glass",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "waiting-for-the-end",
+   "title": "Waiting for the End",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "arcade",
+   "title": "Arcade",
+   "artist": "Duncan Laurence"
+  },
+  {
+   "id": "thinkin-bout-you",
+   "title": "Thinkin Bout You",
+   "artist": "Frank Ocean"
+  },
+  {
+   "id": "atlas-timo",
+   "title": "Atlas",
+   "artist": "Timo Scharf"
+  },
+  {
+   "id": "somebody-timo",
+   "title": "Somebody",
+   "artist": "Timo Scharf"
+  },
+  {
+   "id": "roar",
+   "title": "Roar",
+   "artist": "Katy Perry"
+  },
+  {
+   "id": "kletka",
+   "title": "Клетка",
+   "artist": "Molchat Doma"
+  },
+  {
+   "id": "disparate-youth",
+   "title": "Disparate Youth",
+   "artist": "Santigold"
+  },
+  {
+   "id": "how-to-save-a-life",
+   "title": "How to Save a Life",
+   "artist": "The Fray"
+  },
+  {
+   "id": "i-kissed-a-girl",
+   "title": "I Kissed a Girl",
+   "artist": "Katy Perry"
+  },
+  {
+   "id": "sparks",
+   "title": "Sparks",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "500-miles",
+   "title": "I'm Gonna Be (500 Miles)",
+   "artist": "The Proclaimers",
+   "hinweis": "Kommentar schrieb „500mils oder odersits by redhotchillipepers“. „Otherside“ wurde RHCP zugeordnet; „500 Miles“ dem bekanntesten Titel der Proclaimers."
+  },
+  {
+   "id": "otherside",
+   "title": "Otherside",
+   "artist": "Red Hot Chili Peppers"
+  },
+  {
+   "id": "clarity",
+   "title": "Clarity",
+   "artist": "Zedd feat. Foxes"
+  },
+  {
+   "id": "in-the-stars",
+   "title": "In the Stars",
+   "artist": "Benson Boone"
+  },
+  {
+   "id": "ruf-mich-nicht-mehr-an",
+   "title": "Ruf mich nicht mehr an",
+   "artist": "Levant",
+   "spotify_track": "https://open.spotify.com/track/5Sz4N3tLQnUgQP5tNKAMpO"
+  },
+  {
+   "id": "star-shopping",
+   "title": "Star Shopping",
+   "artist": "Lil Peep"
+  },
+  {
+   "id": "prom-queen",
+   "title": "Prom Queen",
+   "artist": "Beach Bunny"
+  },
+  {
+   "id": "when-the-beat-drops-out",
+   "title": "When the Beat Drops Out",
+   "artist": "Marlon Roudette"
+  },
+  {
+   "id": "earth-song",
+   "title": "Earth Song",
+   "artist": "Michael Jackson"
+  },
+  {
+   "id": "they-dont-care-about-us",
+   "title": "They Don't Care About Us",
+   "artist": "Michael Jackson"
+  },
+  {
+   "id": "4-morant",
+   "title": "4 Morant (Better Luck Next Time)",
+   "artist": "Doja Cat / Com Truise"
+  },
+  {
+   "id": "things-we-lost-in-the-fire",
+   "title": "Things We Lost in the Fire",
+   "artist": "Bastille"
+  },
+  {
+   "id": "one-day-wankelmut",
+   "title": "One Day / Reckoning Song",
+   "artist": "Wankelmut"
+  },
+  {
+   "id": "what-about-us",
+   "title": "What About Us",
+   "artist": "P!nk"
+  },
+  {
+   "id": "harvey-hers",
+   "title": "Harvey",
+   "artist": "Her's"
+  },
+  {
+   "id": "snowman",
+   "title": "Snowman",
+   "artist": "Sia"
+  },
+  {
+   "id": "buddy-holly",
+   "title": "Buddy Holly",
+   "artist": "Weezer",
+   "hinweis": "Kommentar endet mit „body Holly“ nach vielen „Bitte“."
+  },
+  {
+   "id": "romantic-homicide",
+   "title": "Romantic Homicide",
+   "artist": "d4vd"
+  },
+  {
+   "id": "est-ce-que-tu-maimes",
+   "title": "Est-ce que tu m'aimes",
+   "artist": "Maître Gims",
+   "hinweis": "Kommentar: „Est-ce que t‘aimes“."
+  },
+  {
+   "id": "too-little-too-late",
+   "title": "Too Little Too Late",
+   "artist": "JoJo"
+  },
+  {
+   "id": "paint-it-black",
+   "title": "Paint It, Black",
+   "artist": "The Rolling Stones"
+  },
+  {
+   "id": "one-more-time-ninth-key",
+   "title": "ONE MORE TIME",
+   "artist": "Ninth Key, Ekoh & Lø Spirit",
+   "spotify_track": "https://open.spotify.com/track/5FHfW2GHN1PKQRpszig8lM"
+  },
+  {
+   "id": "heal-tom-odell",
+   "title": "Heal",
+   "artist": "Tom Odell"
+  },
+  {
+   "id": "numb",
+   "title": "Numb",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "glimpse-of-us",
+   "title": "Glimpse of Us",
+   "artist": "Joji"
+  },
+  {
+   "id": "lost-on-you",
+   "title": "Lost On You",
+   "artist": "LP"
+  },
+  {
+   "id": "runaway-kanye",
+   "title": "Runaway",
+   "artist": "Kanye West",
+   "hinweis": "Explizit „Run away von Kanye West“ – getrennt von Runaway (AURORA)."
+  },
+  {
+   "id": "no-surprises",
+   "title": "No Surprises",
+   "artist": "Radiohead"
+  },
+  {
+   "id": "burn-it-down",
+   "title": "Burn It Down",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "creep",
+   "title": "Creep",
+   "artist": "Radiohead"
+  },
+  {
+   "id": "all-i-need",
+   "title": "All I Need",
+   "artist": "Radiohead"
+  },
+  {
+   "id": "somewhere-only-we-know",
+   "title": "Somewhere Only We Know",
+   "artist": "Keane"
+  },
+  {
+   "id": "lies-greed-misery",
+   "title": "Lies Greed Misery",
+   "artist": "Linkin Park"
+  },
+  {
+   "id": "demons",
+   "title": "Demons",
+   "artist": "Imagine Dragons"
+  },
+  {
+   "id": "boulevard-of-broken-dreams",
+   "title": "Boulevard of Broken Dreams",
+   "artist": "Green Day"
+  },
+  {
+   "id": "circles",
+   "title": "Circles",
+   "artist": "Post Malone"
+  },
+  {
+   "id": "mockingbird",
+   "title": "Mockingbird",
+   "artist": "Eminem"
+  },
+  {
+   "id": "daddy-issues-remix",
+   "title": "Daddy Issues (Remix)",
+   "artist": "The Neighbourhood & Syd"
+  },
+  {
+   "id": "solo-tu",
+   "title": "Solo Tú",
+   "artist": "Highland"
+  },
+  {
+   "id": "renn-ayliva",
+   "title": "Renn",
+   "artist": "Ayliva"
+  },
+  {
+   "id": "meine-traenen",
+   "title": "Meine Tränen",
+   "artist": "Rammstein"
+  },
+  {
+   "id": "chasing-cars",
+   "title": "Chasing Cars",
+   "artist": "Snow Patrol"
+  },
+  {
+   "id": "where-is-my-mind",
+   "title": "Where Is My Mind?",
+   "artist": "Pixies"
+  },
+  {
+   "id": "yellow",
+   "title": "Yellow",
+   "artist": "Coldplay"
+  },
+  {
+   "id": "wrecking-ball-mm",
+   "title": "Wrecking Ball",
+   "artist": "Mother Mother",
+   "spotify_track": "https://open.spotify.com/track/007JQyyu6DrGza9XX6scAN"
+  },
+  {
+   "id": "unklar-ronaldo-messi",
+   "title": "Song aus Ronaldo-/Messi-Edits (kein Titel genannt)",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Kommentar: „Dieses lied mit den Ronaldo und Messi storys“ – Titel nicht genannt."
+  },
+  {
+   "id": "patience-unklar",
+   "title": "Patience",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Mehrere bekannte Songs dieses Titels (u. a. Guns N' Roses, Tame Impala). Interpret unklar."
+  },
+  {
+   "id": "als-du-gangster-unklar",
+   "title": "als du Gangster",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Wortlaut „als du Gangster“ – Titel/Interpret nicht sicher zuzuordnen."
+  },
+  {
+   "id": "last-call-unklar",
+   "title": "Last Call",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Drei Wünsche derselben Person, ohne Interpret. Mehrere bekannte Songs dieses Titels."
+  },
+  {
+   "id": "hulls-unklar",
+   "title": "Hulls",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Kommentar nur „HULLS!! BITTE!“. Es gibt u. a. „Hulls“ von Loney Dear, Zuordnung unsicher."
+  },
+  {
+   "id": "hes-my-man-unklar",
+   "title": "He's My Man",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Kommentar nur „he’s my man plss“. Interpret unklar."
+  },
+  {
+   "id": "oceans-unklar",
+   "title": "Oceans",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Zusammen mit One More Light genannt, ohne Interpret (u. a. Pearl Jam, Seafret, Hillsong möglich)."
+  },
+  {
+   "id": "all-i-want-unklar",
+   "title": "All I Want Is You / All I Want",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Kommentar: „All I want is you know bitte“ – Titel und Interpret unsicher."
+  },
+  {
+   "id": "the-last-dance-unklar",
+   "title": "The Last Dance",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Ohne Interpret; mehrere Songs dieses Titels."
+  },
+  {
+   "id": "heartless-unklar",
+   "title": "Heartless",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Ohne Interpret. Am bekanntesten: Kanye West oder The Weeknd."
+  },
+  {
+   "id": "mr-magic-unklar",
+   "title": "Mr Magic",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Ohne Interpret, Zuordnung unsicher."
+  },
+  {
+   "id": "daylight-unklar",
+   "title": "Daylight",
+   "artist": null,
+   "artist_klar": false,
+   "hinweis": "Ohne Interpret. Mehrere bekannte Songs (u. a. David Kushner, Harry Styles, Taylor Swift)."
+  },
+  {
+   "id": "habits",
+   "title": "Habits (Stay High)",
+   "artist": "Tove Lo"
+  },
+  {
+   "id": "last-christmas",
+   "title": "Last Christmas",
+   "artist": "Wham!"
+  },
+  {
+   "id": "waiting-for-love",
+   "title": "Waiting for Love",
+   "artist": "Avicii"
+  },
+  {
+   "id": "we-are-the-people",
+   "title": "We Are the People",
+   "artist": "Empire of the Sun"
+  },
+  {
+   "id": "get-lucky",
+   "title": "Get Lucky",
+   "artist": "Daft Punk feat. Pharrell Williams"
+  },
+  {
+   "id": "counting-stars",
+   "title": "Counting Stars",
+   "artist": "OneRepublic"
+  },
+  {
+   "id": "empire-state-of-mind",
+   "title": "Empire State of Mind",
+   "artist": "Jay-Z feat. Alicia Keys"
+  },
+  {
+   "id": "after-dark",
+   "title": "After Dark",
+   "artist": "Mr.Kitty"
+  }
+ ]
+}
