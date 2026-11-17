@@ -49,7 +49,7 @@
   };
   const alterTextH = (h) => h < 1 ? "vor < 1 Std." : h < 24 ? `vor ${Math.round(h)} Std.` : `vor ${Math.round(h / 24)} ${Math.round(h / 24) === 1 ? "Tag" : "Tagen"}`;
   const hue = (s) => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360; return h; };
-  const statusLabel = (s) => s.status === "erledigt" ? `Erledigt · Teil ${s.status_teil}` : s.status === "geplant" ? `Teil ${s.status_teil}` : s.status === "geparkt" ? "Geparkt" : "Offen";
+  const statusLabel = (s) => s.status === "erledigt" ? `Erledigt · Teil ${s.status_teil}` : s.status === "geplant" ? `Geplant · Teil ${s.status_teil}` : s.status === "geparkt" ? "Geparkt" : "Offen";
   const statusBadge = (s, showOffen) => (s.status === "offen" && !showOffen) ? "" : `<span class="badge b-${s.status}">${esc(statusLabel(s))}</span>`;
   const timIcons = (liked, answered) => (liked || answered) ? `<span class="tim">${liked ? `<span class="liked" title="von dir geliked">${svg(ICON.heart, 12)}</span>` : ""}${answered ? `<span class="answered" title="von dir beantwortet">${svg(ICON.reply, 12)}</span>` : ""}</span>` : "";
   const videosText = (n) => n === 1 ? "aus 1 Video" : `aus ${n} Videos`;
