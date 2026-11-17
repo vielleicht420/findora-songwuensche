@@ -303,7 +303,7 @@
       return true;
     });
     ks.sort(S.ksort === "likes" ? (a, b) => b.likes - a.likes : (a, b) => (a.alter_h ?? 1e9) - (b.alter_h ?? 1e9) || b.teil - a.teil);
-    const shown = ks.slice(0, 150);
+    const shown = ks;
     main.innerHTML = `
       <div class="controls">
         <div class="seg" data-group="ksort">${[["neueste", "Neueste"], ["likes", "Meiste Likes"]].map(([k, l]) => `<button data-v="${k}" class="${S.ksort === k ? "on" : ""}">${l}</button>`).join("")}</div>
