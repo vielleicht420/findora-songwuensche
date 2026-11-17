@@ -262,26 +262,32 @@
   function renderFollower() {
     const f = D.follower;
     const acc = [...f.accounts].sort((a, b) => b.follower - a.follower);
+    const shots = acc.filter((a) => /screenshot/i.test(a.quelle || "")).length;
+    const blau = acc.filter((a) => a.verifiziert).length;
     main.innerHTML = `
       <div class="card" style="text-align:center;padding:20px">
         <div class="big">${fmt(f.gesamt)}</div>
         <div class="stand" style="font-size:13px">Follower · Stand ${esc(D.meta.stand_text)}</div>
       </div>
       <div class="kpis" style="margin-top:10px">
-        <div class="kpi"><div class="v">${fmt(f.geladen)}</div><div class="l">geprüft</div></div>
-        <div class="kpi"><div class="v">${fmt(f.blauer_haken)}</div><div class="l">blauer Haken</div></div>
-        <div class="kpi"><div class="v">${acc.length ? fmt(acc[0].follower) : "–"}</div><div class="l">größter Account</div></div>
+        <div class="kpi"><div class="v">${fmt(f.geladen + shots)}</div><div class="l">geprüft${shots ? ` (${shots} per Screenshot)` : ""}</div></div>
+        <div class="kpi"><div class="v">${fmt(blau)}</div><div class="l">blauer Haken</div></div>
+        <div class="kpi"><div class="v">${acc.length ? fmtK(acc[0].follower) : "–"}</div><div class="l">größter Account</div></div>
       </div>
       <div class="hint">${esc(f.hinweis)}</div>
-      <div class="section-h">Größte Accounts unter den geprüften</div>
+      <div class="section-h">Größte Accounts, die dir folgen</div>
       <div class="list">${acc.map((a, i) => `
-        <a class="card person" href="${tt(a.user)}" target="_blank" rel="noopener" style="text-decoration:none">
-          <div class="avatar" style="background:hsl(${hue(a.user)} 65% 50%)">${esc(a.user.charAt(0).toUpperCase())}</div>
-          <div class="person-main">
-            <div class="person-name">${i + 1}. @${esc(a.user)} ${a.verifiziert ? `<span class="verified">${ICON.check}</span>` : ""}</div>
-            <div class="person-handle">${a.verifiziert ? "verifiziert · " : "kein blauer Haken"}${a.notiz ? " · " + esc(a.notiz) : ""}</div>
+        <a class="card" href="${tt(a.user)}" target="_blank" rel="noopener" style="text-decoration:none;display:block">
+          <div class="person">
+            <div class="avatar" style="background:hsl(${hue(a.user)} 65% 50%)">${esc((a.name || a.user).trim().charAt(0).toUpperCase())}</div>
+            <div class="person-main">
+              <div class="person-name">${i + 1}. ${esc(a.name || "@" + a.user)} ${a.verifiziert ? `<span class="verified">${ICON.check}</span>` : ""}</div>
+              <div class="person-handle">${a.name ? "@" + esc(a.user) + " · " : ""}${a.verifiziert ? "verifiziert" : "kein blauer Haken"}</div>
+            </div>
+            <div class="count"><b>${fmt(a.follower)}</b><span>Follower</span></div>
           </div>
-          <div class="count"><b>${fmt(a.follower)}</b><span>Follower</span></div>
+          ${a.likes || a.folgt != null || a.notiz ? `<div class="stats">${a.likes ? `<span class="stat">${ICON.heart}<b>${esc(a.likes)}</b> Likes</span>` : ""}${a.folgt != null ? `<span class="stat">folgt <b>${fmt(a.folgt)}</b></span>` : ""}${a.notiz ? `<span class="stat">${esc(a.notiz)}</span>` : ""}</div>` : ""}
+          ${a.quelle ? `<div class="cmt-foot">Quelle: ${esc(a.quelle)}</div>` : ""}
         </a>`).join("")}</div>
       <div class="note">Hier stehen nur echte, geprüfte Daten. Wenn dir in der App jemand mit vielen Followern oder blauem Haken auffällt: Screenshot schicken, dann wird er ergänzt.</div>`;
   }

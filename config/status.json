@@ -4,34 +4,187 @@
   "stand_text": "17.11.2026, 00:49 Uhr",
   "account": "f1ndor4",
   "serie": "Songs erklärt",
-  "profil": {"follower": 2019, "likes": "28,3K"},
-  "erledigt": {
-    "just-give-me-a-reason": 1, "habits": 2, "last-christmas": 3, "waiting-for-love": 4,
-    "we-are-the-people": 5, "in-this-shirt": 6, "7-years": 7, "space-song": 8, "wicked-game": 9
+  "profil": {
+    "follower": 2019,
+    "likes": "28,3K"
   },
-  "geplant": {"runaway-aurora": 10, "505": 11},
-  "geparkt": ["get-lucky", "counting-stars", "empire-state-of-mind"],
+  "erledigt": {
+    "just-give-me-a-reason": 1,
+    "habits": 2,
+    "last-christmas": 3,
+    "waiting-for-love": 4,
+    "we-are-the-people": 5,
+    "in-this-shirt": 6,
+    "7-years": 7,
+    "space-song": 8,
+    "wicked-game": 9
+  },
+  "geplant": {
+    "runaway-aurora": 10,
+    "505": 11
+  },
+  "geparkt": [
+    "get-lucky",
+    "counting-stars",
+    "empire-state-of-mind"
+  ],
   "videos": [
-    {"teil": 1, "song": "just-give-me-a-reason", "titel": "Just Give Me a Reason", "interpret": "P!nk feat. Nate Ruess", "url": "https://www.tiktok.com/@f1ndor4/video/7707200197213965601", "aufrufe": 3594, "likes": 421, "favoriten": 58, "shares": 15, "kommentare_angezeigt": 4},
-    {"teil": 2, "song": "habits", "titel": "Habits", "interpret": "Tove Lo", "url": "https://www.tiktok.com/@f1ndor4/video/7707555374613744929", "aufrufe": 4119, "likes": 479, "favoriten": 93, "shares": 11, "kommentare_angezeigt": 4},
-    {"teil": 3, "song": "last-christmas", "titel": "Last Christmas", "interpret": "Wham!", "url": "https://www.tiktok.com/@f1ndor4/video/7707715514524650785", "aufrufe": 5153, "likes": 409, "favoriten": 42, "shares": 17, "kommentare_angezeigt": 6},
-    {"teil": 4, "song": "waiting-for-love", "titel": "Waiting for Love", "interpret": "Avicii", "url": "https://www.tiktok.com/@f1ndor4/video/7707993733987355936", "aufrufe": 5924, "likes": 670, "favoriten": 122, "shares": 22, "kommentare_angezeigt": 15},
-    {"teil": 5, "song": "we-are-the-people", "titel": "We Are the People", "interpret": "Empire of the Sun", "url": "https://www.tiktok.com/@f1ndor4/video/7708085335976168737", "aufrufe": 104500, "likes": 16500, "favoriten": 2469, "shares": 812, "kommentare_angezeigt": 79},
-    {"teil": 6, "song": "in-this-shirt", "titel": "In This Shirt", "interpret": "The Irrepressibles", "url": "https://www.tiktok.com/@f1ndor4/video/7708350826305162528", "aufrufe": 59200, "likes": 6214, "favoriten": 1442, "shares": 119, "kommentare_angezeigt": 105},
-    {"teil": 7, "song": "7-years", "titel": "7 Years", "interpret": "Lukas Graham", "url": "https://www.tiktok.com/@f1ndor4/video/7708456001883655457", "aufrufe": 11300, "likes": 1494, "favoriten": 244, "shares": 25, "kommentare_angezeigt": 68},
-    {"teil": 8, "song": "space-song", "titel": "Space Song", "interpret": "Beach House", "url": "https://www.tiktok.com/@f1ndor4/video/7708692736177736993", "aufrufe": 10300, "likes": 1736, "favoriten": 332, "shares": 71, "kommentare_angezeigt": 54},
-    {"teil": 9, "song": "wicked-game", "titel": "Wicked Game", "interpret": "Chris Isaak", "url": "https://www.tiktok.com/@f1ndor4/video/7708880385978993953", "aufrufe": 2689, "likes": 351, "favoriten": 56, "shares": 19, "kommentare_angezeigt": 24}
+    {
+      "teil": 1,
+      "song": "just-give-me-a-reason",
+      "titel": "Just Give Me a Reason",
+      "interpret": "P!nk feat. Nate Ruess",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7707200197213965601",
+      "aufrufe": 3594,
+      "likes": 421,
+      "favoriten": 58,
+      "shares": 15,
+      "kommentare_angezeigt": 4
+    },
+    {
+      "teil": 2,
+      "song": "habits",
+      "titel": "Habits",
+      "interpret": "Tove Lo",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7707555374613744929",
+      "aufrufe": 4119,
+      "likes": 479,
+      "favoriten": 93,
+      "shares": 11,
+      "kommentare_angezeigt": 4
+    },
+    {
+      "teil": 3,
+      "song": "last-christmas",
+      "titel": "Last Christmas",
+      "interpret": "Wham!",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7707715514524650785",
+      "aufrufe": 5153,
+      "likes": 409,
+      "favoriten": 42,
+      "shares": 17,
+      "kommentare_angezeigt": 6
+    },
+    {
+      "teil": 4,
+      "song": "waiting-for-love",
+      "titel": "Waiting for Love",
+      "interpret": "Avicii",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7707993733987355936",
+      "aufrufe": 5924,
+      "likes": 670,
+      "favoriten": 122,
+      "shares": 22,
+      "kommentare_angezeigt": 15
+    },
+    {
+      "teil": 5,
+      "song": "we-are-the-people",
+      "titel": "We Are the People",
+      "interpret": "Empire of the Sun",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7708085335976168737",
+      "aufrufe": 104500,
+      "likes": 16500,
+      "favoriten": 2469,
+      "shares": 812,
+      "kommentare_angezeigt": 79
+    },
+    {
+      "teil": 6,
+      "song": "in-this-shirt",
+      "titel": "In This Shirt",
+      "interpret": "The Irrepressibles",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7708350826305162528",
+      "aufrufe": 59200,
+      "likes": 6214,
+      "favoriten": 1442,
+      "shares": 119,
+      "kommentare_angezeigt": 105
+    },
+    {
+      "teil": 7,
+      "song": "7-years",
+      "titel": "7 Years",
+      "interpret": "Lukas Graham",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7708456001883655457",
+      "aufrufe": 11300,
+      "likes": 1494,
+      "favoriten": 244,
+      "shares": 25,
+      "kommentare_angezeigt": 68
+    },
+    {
+      "teil": 8,
+      "song": "space-song",
+      "titel": "Space Song",
+      "interpret": "Beach House",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7708692736177736993",
+      "aufrufe": 10300,
+      "likes": 1736,
+      "favoriten": 332,
+      "shares": 71,
+      "kommentare_angezeigt": 54
+    },
+    {
+      "teil": 9,
+      "song": "wicked-game",
+      "titel": "Wicked Game",
+      "interpret": "Chris Isaak",
+      "url": "https://www.tiktok.com/@f1ndor4/video/7708880385978993953",
+      "aufrufe": 2689,
+      "likes": 351,
+      "favoriten": 56,
+      "shares": 19,
+      "kommentare_angezeigt": 24
+    }
   ],
   "follower": {
     "gesamt": 2019,
     "geladen": 30,
     "blauer_haken": 0,
     "stand_text": "17.11.2026, nachts",
-    "hinweis": "TikTok zeigt im Browser nur die 30 neuesten Follower an, mehr lädt auch beim Weiterscrollen nicht. Unter diesen 30 hat niemand einen blauen Haken. Die komplette Liste gibt es nur in der TikTok-App – schick einen Screenshot, wenn dir dort jemand Großes oder mit blauem Haken auffällt, dann wird er hier ergänzt.",
+    "hinweis": "TikTok zeigt im Browser nur die 30 neuesten Follower an. Unter diesen 30 hat niemand einen blauen Haken. Größere Follower kommen per Screenshot aus der TikTok-App dazu – einfach schicken, dann werden sie ergänzt.",
     "accounts": [
-      {"user": "towe.vibe", "follower": 1133, "verifiziert": false, "notiz": "Twitch-Streamer"},
-      {"user": "crofanpage1", "follower": 432, "verifiziert": false},
-      {"user": "blaulichtbruder", "follower": 145, "verifiziert": false}
-    ]
+      {
+        "user": "sina.lco",
+        "name": "sinalco",
+        "follower": 156371,
+        "likes": "12,3 Mio.",
+        "folgt": 4547,
+        "verifiziert": false,
+        "notiz": "Covers/Music, Showcase",
+        "quelle": "Screenshot von Tim, 17.11."
+      },
+      {
+        "user": "happysmiliee",
+        "name": "ema the dancer",
+        "follower": 68136,
+        "likes": "2,6 Mio.",
+        "folgt": 899,
+        "verifiziert": false,
+        "notiz": "Dancer & Danceteacher, Berlin",
+        "quelle": "Screenshot von Tim, 17.11."
+      },
+      {
+        "user": "towe.vibe",
+        "follower": 1133,
+        "verifiziert": false,
+        "notiz": "Twitch-Streamer",
+        "quelle": "Browser-Followerliste, 17.11."
+      },
+      {
+        "user": "crofanpage1",
+        "follower": 432,
+        "verifiziert": false,
+        "quelle": "Browser-Followerliste, 17.11."
+      },
+      {
+        "user": "blaulichtbruder",
+        "follower": 145,
+        "verifiziert": false,
+        "quelle": "Browser-Followerliste, 17.11."
+      }
+    ],
+    "_info_accounts": "Neue Einträge einfach in 'accounts' ergänzen: user (ohne @), follower (Zahl), optional name, likes (Text), folgt (Zahl), verifiziert (true/false), notiz, quelle. Die App sortiert nach follower."
   }
 }
